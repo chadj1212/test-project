@@ -1,21 +1,19 @@
-
 import './App.css'
+import MovieCard from "./components/MovieCard"
+import Home from './pages/home';
+
 
 function App() {// component
+  const movieNumber = 1;
+
+
   return (
     //fragment
-    <> 
-    <Text display="hi there"/>
-    <Text display="my brotha"/>
+    <>
+     <Home/>
     </>
   )
 }
-function Text ({display}){ //function Text ({display}){ this is a prop
-  return( 
-    <div>
-     <p>{display}</p>
-    </div>
-  );
-}
+
 
 export default App
